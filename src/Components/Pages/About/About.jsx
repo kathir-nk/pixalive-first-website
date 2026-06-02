@@ -11,7 +11,6 @@ const WebApplication = () => {
         </div>
         <h1>About Our Company</h1>
       </header>
-
       <section className="intro">
         <p>
           Pixalive tech Services is one of India’s fastest-growing Software Development Companies. L-IT 
