@@ -26,13 +26,13 @@ const Header = () => {
         <a href="/" className="active">Home</a>
         <a href="/About">About</a>
 
-        {/* Services Dropdown */}
+        {/* Services Dropdown - Changed '#' to '/#' */}
         <div 
           className="dropdown" 
           onMouseEnter={() => setServicesOpen(true)}
           onMouseLeave={() => setServicesOpen(false)}
         >
-          <a href="#">Services ▾</a>
+          <a href="/#">Services ▾</a>
           {servicesOpen && (
             <div className="dropdown-menu">
               <a href="/SWeb">Web Application Development</a>
@@ -41,22 +41,22 @@ const Header = () => {
           )}
         </div>
 
-        {/* Hire Developers Dropdown */}
+        {/* Hire Developers Dropdown - Changed all '#' to '/#' */}
         <div 
           className="dropdown" 
           onMouseEnter={() => setHireOpen(true)}
           onMouseLeave={() => setHireOpen(false)}
         >
-          <a href="#">Hire Developers ▾</a>
+          <a href="/#">Hire Developers ▾</a>
           {hireOpen && (
             <div className="dropdown-menu">
-              <a href="#">Hire</a>
-              <a href="#">Contract/Temporary Employees</a>
-              <a href="#">Hire Java Developers</a>
-              <a href="#">Hire Dot Net Developers</a>
-              <a href="#">Hire PHP Developers</a>
-              <a href="#">Hire Salesforce Developers</a>
-              <a href="#">Hire SAP Professionals</a>
+              <a href="/#">Hire</a>
+              <a href="/#">Contract/Temporary Employees</a>
+              <a href="/#">Hire Java Developers</a>
+              <a href="/#">Hire Dot Net Developers</a>
+              <a href="/#">Hire PHP Developers</a>
+              <a href="/#">Hire Salesforce Developers</a>
+              <a href="/#">Hire SAP Professionals</a>
             </div>
           )}
         </div>
@@ -64,17 +64,17 @@ const Header = () => {
         <a href="/clients">Our Clients</a>
         <a href="/space">Coworking Space</a>
 
-        {/* Careers Dropdown */}
+        {/* Careers Dropdown - Changed '#' to '/#' */}
         <div 
           className="dropdown" 
           onMouseEnter={() => setCareersOpen(true)}
           onMouseLeave={() => setCareersOpen(false)}
         >
-          <a href="#">Careers ▾</a>
+          <a href="/#">Careers ▾</a>
           {careersOpen && (
             <div className="dropdown-menu">
               <a href="/carrer">Career Policy</a>
-              <a href="#">Job Openings</a>
+              <a href="/#">Job Openings</a>
             </div>
           )}
         </div>
